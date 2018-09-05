@@ -1,1 +1,25 @@
-snake game 1
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snake Universe test</title>
+	<style type="text/css">
+		
+	</style>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="snap.svg-min.js"></script>
+</head>
+<body>
+	<svg id="mainSvg" height="800" width="600" viewBox="0 0 750 1000" preserveAspectRatio="none" style="background: #000000">
+		<g id="mainG">
+			<path d="M375 500,375 700,375 800, 300 800" stroke-width="5" stroke="grey" fill="none"/>
+			<!-- <rect x="100" y="100" width="550" height="500" fill="white" stroke="" stroke-width=""/> -->
+		</g>
+	</svg>
+</body>
+</html>
+<script type="text/javascript">
+	snapSvg=Snap("#mainSvg");
+	snapG=Snap("#mainG");
+	jSvg=$("#mainSvg");
+	jG=$("#mainG");
+</script>
